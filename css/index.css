@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.flags{
+  float: right;
+  margin-top: -130px;
+  margin-right: -100px;
+}
+.logo{
+  font-size: 40px;
+}
+h6{
+  font-size: 14px;
+  margin-top: -60px;
+  padding-left: 40px;
+}
+.top-navigation{
+  margin-left: -30px;
+  margin-top: -350px;
+  color: #fff;
+}
+.navigationbar ul{
+  list-style: none;
+  text-align: center;
+  margin-top: -110px;
+  margin-right: -400px;
+}
+.navigationbar ul li{
+  display: inline-grid;
+  padding: 15px;
+}
+.navigationbar ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+#background{
+background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/elephants.jpeg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding: 400px;
+}
+hr{
+  width: 20px;
+  margin-left: -2px;
+}
+.homepage h1{
+  font-size: 50px;
+}
+.homepage{
+  text-align: left;
+  padding-top: 70px;
+  margin-left: 150px;
+  color: #fff;
+}
+.btn-1 button{
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}
+#knop-1{
+  background-color: #DAAC78;
+  border: 2px solid #DAAC78;
+  color: #fff;
+}
+#knop-2{
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.input-content{
+  float: right;
+}
+
+.input-content div{
+
+margin: 15px;
+}
+.input-date input{
+  height: 20px;
+  width: 200px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.output-date input{
+  height: 20px;
+  width: 200px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.room-type input{
+  height: 20px;
+  width: 200px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.adults input{
+  height: 20px;
+  width: 200px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.btn-2 button{
+  margin-left: 7px;
+  width: 200px;
+  height: 40px;
+  background-color: #DAAC78;
+  border: 2px solid #DAAC78;
+  color: #fff;
+}
