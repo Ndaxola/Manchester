@@ -117,3 +117,117 @@ margin: 15px;
   border: 2px solid #DAAC78;
   color: #fff;
 }
+.welcome-slide{
+  text-align: center;
+  margin-top: 50px;
+}
+.welcome-slide h5{
+margin-top: -13px;
+color: #a3a3a3;
+}
+.welcome-menu{
+margin: 0 auto;
+width: 85%;
+
+}
+.group-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.group-2{
+  display: flex;
+  justify-content: space-between;
+
+}
+.Luxury-Accomodation  img{
+  padding-right: 20px;
+}
+.Finest-Cuisine img{
+  padding-right: 20px;
+}
+.Easy-Access img{
+  padding-right: 20px;
+}
+.Shopping-Center img{
+  padding-right: 20px;
+}
+.Spa-And-Relaxation img{
+  padding-right: 20px;
+}
+.Award-Winning img{
+  padding: 5px;
+}
+.ndaxola{
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/slide-3.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 420px;
+}
+.grid-items {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 80px;
+}
+.grid-items div {
+  background: linear-gradient(rgba(234,235,237,.3),rgba(234,235,237,.3));
+  border: 1px solid white;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+
+}
+.horizon-deep{
+ margin-left: 90px;
+ text-align: center;
+}
+.resort-info{
+  text-align: center;
+  padding: 100px;
+}
+.resort-info h5{
+  margin-top: -20px;
+  color: #a3a3a3;
+}
+.The-resort{
+  display: flex;
+justify-content: center;
+margin-top: -100px;
+}
+.The-resort div{
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #a3a3a3;
+}
+.BED{
+  background:  #DAAC78;
+  color: #fff;
+border: 1px solid #DAAC78;
+}
+.slide-image img{
+width:800px;
+padding:150px;
+}
+.text{
+  float: right;
+  padding-right: 190px;
+  margin-top: -590px;
+}
+.list ul{
+  list-style: none;
+}
+.list button{
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #DAAC78;
+  border: 2px solid #DAAC78;
+  color: #fff;
+}
+#spot{
+  background: transparent;
+  color:#000;
+}
