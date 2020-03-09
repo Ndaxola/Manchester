@@ -1,10 +1,12 @@
 body{
   margin: 0;
   padding: 0;
+ font-family: 'Playfair Display', serif;
+
 }
 .flags{
   float: right;
-  margin-top: -130px;
+  margin-top: -120px;
   margin-right: -100px;
 }
 .logo{
@@ -41,12 +43,19 @@ background-position: center;
 background-repeat: no-repeat;
 padding: 400px;
 }
+::placeholder{
+  color: #fff;
+}
+.input-icon img{
+  margin-left: -30px;
+}
 hr{
   width: 20px;
   margin-left: -2px;
 }
 .homepage h1{
   font-size: 50px;
+  margin-bottom: 10px;
 }
 .homepage{
   text-align: left;
@@ -74,8 +83,8 @@ hr{
 }
 
 .input-content div{
-
 margin: 15px;
+
 }
 .input-date input{
   height: 20px;
@@ -84,6 +93,7 @@ margin: 15px;
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
+    border-radius: 3px;
 }
 .output-date input{
   height: 20px;
@@ -92,6 +102,7 @@ margin: 15px;
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
+    border-radius: 3px;
 }
 .room-type input{
   height: 20px;
@@ -100,6 +111,7 @@ margin: 15px;
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
+    border-radius: 3px;
 }
 .adults input{
   height: 20px;
@@ -108,14 +120,16 @@ margin: 15px;
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
+  border-radius: 3px;
 }
 .btn-2 button{
-  margin-left: 7px;
+  margin-left:4px;
   width: 200px;
   height: 40px;
   background-color: #DAAC78;
   border: 2px solid #DAAC78;
   color: #fff;
+    border-radius: 5px;
 }
 .welcome-slide{
   text-align: center;
@@ -126,6 +140,7 @@ margin-top: -13px;
 color: #a3a3a3;
 }
 .welcome-menu{
+text-align: justify;
 margin: 0 auto;
 width: 85%;
 
@@ -139,23 +154,32 @@ width: 85%;
   justify-content: space-between;
 
 }
-.Luxury-Accomodation  img{
-  padding-right: 20px;
+
+.Luxury-Accomodation{
+display: flex;
 }
-.Finest-Cuisine img{
-  padding-right: 20px;
+.Finest-Cuisine{
+  display: flex;
 }
-.Easy-Access img{
-  padding-right: 20px;
+.Easy-Access{
+  display: flex;
 }
-.Shopping-Center img{
-  padding-right: 20px;
+.Shopping-Center{
+    display: flex;
 }
-.Spa-And-Relaxation img{
-  padding-right: 20px;
+.Spa-And-Relaxation{
+  display: flex;
 }
-.Award-Winning img{
-  padding: 5px;
+.Award-Winning{
+  display: flex;
+}
+.icons-left img{
+  margin-top: 15px;
+  margin-left: -80px;
+  padding: 20px;
+  background: #DAAC78;
+  border: 2px solid #DAAC78;
+
 }
 .ndaxola{
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/slide-3.jpeg");
@@ -213,7 +237,7 @@ padding:150px;
 }
 .text{
   float: right;
-  padding-right: 190px;
+  padding-right: 150px;
   margin-top: -590px;
 }
 .list ul{
@@ -230,4 +254,92 @@ padding:150px;
 #spot{
   background: transparent;
   color:#000;
+}
+.opinion {
+  text-align: right;
+  margin-top: -464px;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/zebras.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 680px;
+  padding: 180px;
+  width: 900px;
+  color: #fff;
+  height: 104px;
+}
+.guestbook {
+  margin-left: 0;
+  background: #DAAC78;
+  padding: 91px;
+  color: #fff;
+}
+
+#guestbutton {
+  width: 200px;
+  height: 50px;
+}
+.opinion h6 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.opinion p {
+  text-align: center;
+}
+
+.opinion hr {
+  width: 50px;
+  margin-left: 440px;
+}
+.guestbook hr {
+  margin-left: 125px;
+}
+.popular{
+  text-align: center;
+}
+.popular h5{
+  margin-top: -10px;
+}
+.rooms {
+display: flex;
+justify-content: space-between;
+padding: 0 30px 0 30px;
+color: #cdcdcd;
+}
+.rooms b{
+  color: #000;
+}
+.room-1{
+  border: 2px solid #cdcdcd;
+  padding: 3px;
+}
+.room-2{
+  border: 2px solid #cdcdcd;
+  padding: 3px;
+}
+.room-3{
+  border: 2px solid #cdcdcd;
+  padding: 3px;
+}
+.room1-image img{
+  width: 500px;
+}
+.rooms h3 img{
+  margin-left: 300px;
+}
+.rooms h3{
+  padding: -5px;
+  background: #DAAC78;
+  margin-top: -5px;
+  padding: 10px;
+  color: #fff;
+  }
+.rooms button{
+  margin-left: 100px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid #DAAC78;
+  background: #DAAC78;
+  color: #fff;
 }
